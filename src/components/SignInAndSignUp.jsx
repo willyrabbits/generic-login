@@ -1,12 +1,12 @@
-import React, { useContext } from 'react'
+import React from 'react'
 
 import SignIn from './SignIn';
-import SignUp from './SignUp';
+// import SignUp from './SignUp';
 
 const SignInAndSignUp = () => (
   <div className="auth">
     <div className="welcome-greeting">
-      Welcome
+      Who are you?
     </div>
     <SignIn />
     {/*<SignUp />*/}

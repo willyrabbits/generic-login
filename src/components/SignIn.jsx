@@ -28,6 +28,7 @@ class SignIn extends Component {
       case "facebook-login":
         this.setState({ facebookOver: '' })
         break;
+      default: break;
     }
   };
 
@@ -39,6 +40,7 @@ class SignIn extends Component {
       case "facebook-login":
         this.setState({ facebookOver: '-gray' })
         break;
+      default: break;
     }
   };
 

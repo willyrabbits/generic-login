@@ -1,5 +1,4 @@
 import React from 'react';
-import { signOut } from '../firebase';
 
 const CurrentUser = ({ displayName, photoURL, email }) => {
 
