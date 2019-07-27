@@ -5,6 +5,9 @@ import SignUp from './SignUp';
 
 const SignInAndSignUp = () => (
   <div className="auth">
+    <div className="welcome-greeting">
+      Welcome
+    </div>
     <SignIn />
     {/*<SignUp />*/}
   </div>

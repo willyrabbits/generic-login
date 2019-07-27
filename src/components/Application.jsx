@@ -6,7 +6,7 @@ class Application extends Component {
 
   render() {
     return (
-      <main className="Application">
+      <main className="app">
         <h1>Generic Login</h1>
         <Authentication />
       </main>

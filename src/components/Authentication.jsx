@@ -13,7 +13,9 @@ const Authentication = ({ loading }) => {
   if (loading) return null;
 
   return (
-    <div>{user ? (<div><CurrentUser {...user} /><button onClick={signOut}>Sign Out</button></div>) : <SignInAndSignUp />}</div>
+    <div>
+      {user ? (<div><CurrentUser {...user} /><button onClick={signOut}>Sign Out</button></div>) : <SignInAndSignUp />}
+    </div>
   );
 };
 
